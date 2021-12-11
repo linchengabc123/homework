@@ -1,4 +1,5 @@
 // cheking we are in dev env
+// fuck all
 if(process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
