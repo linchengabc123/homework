@@ -15,9 +15,11 @@ em {
 
 
 
+
 /* ======================
     File Ponds
 =========================*/
+
 .filepond--file-action-button {
     cursor: pointer;
 }
@@ -53,6 +55,8 @@ main {
 
 
 
+
+
 html,
 body,
 header,
@@ -61,12 +65,13 @@ header,
 }
 
 #intro {
-    background: url("http://smarterware.org/wp-content/uploads/2016/09/blogging.jpg")no-repeat center center fixed;
+    background: url("https://w.wallhaven.cc/full/pk/wallhaven-pkgkkp.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 .top-nav-collapse {
     background-color: #24355C;
