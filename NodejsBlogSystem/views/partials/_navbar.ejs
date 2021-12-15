@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <a class="navbar-brand" href="/">NODE BLOG</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#blog-nav" aria-controls="blog-nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Collapsible content -->
+    
     <div class="collapse navbar-collapse" id="blog-nav">
 
         <% if(isAuthenticated) { %>
@@ -46,4 +46,54 @@
 
 
 
-    
+    -->
+	
+	<nav style="background-color: black;" class="navbar navbar-expand-lg fixed-top navbar-dark">
+	    <a class="navbar-brand" href="/"><h2 style="text-shadow: 2px 2px 0px wheat; font-size: 30px;" class="font-weight-bold blue-text ">I Blog</h2></a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#blog-nav" aria-controls="blog-nav"
+	        aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	    </button>
+	
+	    
+	    <div class="collapse navbar-collapse" id="blog-nav">
+	
+	        <% if(isAuthenticated) { %>
+	
+	        <ul class="navbar-nav mr-auto">
+	            <li class="nav-item font-weight-bold">
+	                <a class="nav-link" href="/">Home</a>
+	            </li>
+	            <li style="color: wheat;" class="nav-item wheat-text font-weight-bold ">
+	                <a class="nav-link" href="/posts/add">Add Posts</a>
+	            </li>
+	            <li class="nav-item font-weight-bold">
+	                    <a class="nav-link" href="/categories/add" >Add Category</a>
+	                </li>
+	        </ul>
+	
+	        <span  class="navbar-text my-0 mr-4 font-weight-bold">
+	            <a href="/users/profile" >Profile</a>
+	        </span>
+	        <span class="navbar-text  my-0 mr-4 font-weight-bold">
+	            <a href="/users/logout">Logout</a>
+	        </span>
+	
+	        <%} else { %>
+	        <ul class="navbar-nav ml-auto">
+	            <span class="navbar-text white-text my-0 mr-4 font-weight-bold">
+	                <a href="/users/login" >Login</a>
+	            </span>
+	
+	            <span class="navbar-text white-text my-0 mr-5 font-weight-bold">
+	                <a href="/users/register" >Register</a>
+	            </span>
+	        </ul>
+	        <%}%>
+	                </div>
+	        </div>
+	    </nav>
+	
+	
+	
+	    
