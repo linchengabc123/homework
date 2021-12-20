@@ -5,7 +5,8 @@ body {
     position: relative;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-
+	/* 背景颜色 */
+    background: dimgray;
 }
 
 em {
