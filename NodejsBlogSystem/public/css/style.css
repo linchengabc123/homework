@@ -15,9 +15,11 @@ em {
 
 
 
+
 /* ======================
     File Ponds
 =========================*/
+
 .filepond--file-action-button {
     cursor: pointer;
 }
@@ -53,6 +55,8 @@ main {
 
 
 
+
+
 html,
 body,
 header,
@@ -60,13 +64,63 @@ header,
     height: 100%;
 }
 
-#intro {
-    background: url("http://smarterware.org/wp-content/uploads/2016/09/blogging.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
+#bkg {
+	float: left;
+	width: 80%;
+	height: 100%;
+	margin-top: 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background: url("https://s3.bmp.ovh/imgs/2021/12/753aab6ceb14f431.jpg")no-repeat center center fixed;
 }
+
+#resgiter {
+	float: right;
+	width: 20%;
+	height: 100%;
+	margin-top: 0px;
+	background-color: dimgray;
+	box-shadow: 2px 2px 10px 5px black;
+}
+
+#titleWord{
+	text-shadow: 7px 7px 5px black;
+	margin-top: 45%;
+	margin-left: 5%;
+}
+
+#typeWord{
+	margin-top: 55%;
+	margin-left: 5%;
+	
+}
+
+#typeButton{
+	margin-top: 25%;
+	margin-left: 32%;
+}
+
+#typeButton a{
+	width: 55%;
+	border: 2px solid white;
+	font-size: 20px;
+	padding: 15px 30px;
+	color: white;
+	display: block;
+	transition-duration: 0.2s;
+}
+
+#typeButton a:hover{
+	background-color: #2196f3;
+}
+
+#logo {
+	text-shadow: 5px 5px 5px black;
+}
+
 
 .top-nav-collapse {
     background-color: #24355C;
